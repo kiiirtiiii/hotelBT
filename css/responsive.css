@@ -1,0 +1,152 @@
+@media only screen and (max-width: 900px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    #history {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #history-text {
+        width: 100%;
+    }
+   
+    #history-img {
+        width: 100%;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    #about {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+
+    #about-text {
+        width: 100%;
+    }
+
+    #about-img {
+        width: 50%;
+        align-self: center;
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .facility-contact {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .facility-contact div {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        font-size: 13px;
+    }
+    
+    h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #toggle-img {
+        display: flex;
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    #toggle-nav-links div {
+        text-align: center;
+    }
+
+    #toggle:checked + #toggle-nav-links {
+        display: block;
+    }
+
+    #home-text {
+        margin-top: 40px;
+    }
+
+    /*
+    #history {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #history-text {
+        width: 100%;
+    }
+   
+    #history-img {
+        width: 100%;
+    }
+    
+
+    .facility-contact {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .facility-contact div {
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    
+    .container {
+        text-align: center;
+    }
+    */
+    
+    #about {
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+
+    #about-text, #about-img {
+        width: 100%;
+    }
+
+    .client-statement {
+        text-align: right;
+    }
+
+    .client-img {
+        width: 150px;
+    }
+
+    .show-btn {
+        left: 40%;
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Hotel BT | Contact</title>
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div>
+                <a href="index.html">HBT</a>
+            </div>
+
+            <div id="toggle-img">
+                <label for="toggle" ><img src="assets/toggle.png"></label>
+            </div>
+        
+            <div id="nav-links">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div class="active-div"><a href="contact.html" class="active-link">Contact</a></div>
+            </div>
+        </div>
+
+        <!-- menu bar links in mobile -->
+        <div>
+        <input type="checkbox" id="toggle">
+        <div id="toggle-nav-links" >
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div class="active-div"><a href="contact.html" class="active-link">Contact</a></div>
+        </div>
+    </div>
+    </header>
+
+    <div class="container">
+        <h2 style="margin-top:25px"><span class="orange">Contact</span> Us</h2>
+        
+        <div>
+            <h5>Please fill out the form below to contact us</h5>
+            
+            <div id="contact-form">
+                <div class="form-field">
+                    <label for="name"><h5>Name</h5></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email"><h5>Email</h5></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="msg"><h5>Message</h5></label>
+                    <textarea id="msg" name="msg" required></textarea>
+                </div>
+
+                <div>
+                    <h5><input type="submit" value="submit" class="submit-btn"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="facility-contact black">
+        <div>
+            <img src="assets/contact-location.png" class="footer-img">
+            <h4 class="footer-img-heading">Location</h4>
+            <p>50 Main st, Boston MA</p>
+        </div>
+        
+        <div>
+            <img src="assets/telephone.png" class="footer-img">
+            <h4 class="footer-img-heading">Phone number</h4>
+            <p>(617)-555-5555</p>
+        </div>
+        
+        <div>
+            <img src="assets/email.png" class="footer-img">
+            <h4 class="footer-img-heading">Email Address</h4>
+            <p>frontdesk@hotelbt.co</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <h5>Hotel BT © 2021, All Rights Reserved</h5>
+        </div>
+    </footer>
+</body>
+</html>
