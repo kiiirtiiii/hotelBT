@@ -1,8 +1,4 @@
 @media only screen and (max-width: 900px) {
-    html, body {
-        overflow-x: hidden;
-    }
-
     #history {
         display: flex;
         position: relative;
@@ -40,10 +36,6 @@
 }
 
 @media only screen and (max-width: 680px) {
-    html, body {
-        overflow-x: hidden;
-    }
-
     .facility-contact {
         display: flex;
         position: relative;
@@ -57,10 +49,6 @@
 }
 
 @media only screen and (max-width: 570px) {
-    html, body {
-        overflow-x: hidden;
-    }
-
     body {
         font-size: 13px;
     }
@@ -93,40 +81,6 @@
     #home-text {
         margin-top: 40px;
     }
-
-    /*
-    #history {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #history-text {
-        width: 100%;
-    }
-   
-    #history-img {
-        width: 100%;
-    }
-    
-
-    .facility-contact {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-    }
-
-    .facility-contact div {
-        width: 100%;
-        padding: 20px 0 20px 0;
-    }
-
-    
-    .container {
-        text-align: center;
-    }
-    */
     
     #about {
         display: flex;
