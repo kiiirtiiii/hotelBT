@@ -325,6 +325,11 @@ label h5 {
     cursor: pointer;
 }
 
+/* Hack for Firefox Browsers to show "show more" button */
+.show-btn {
+    -moz-appearance:initial 
+}
+
 .show-btn::after {
     content: "ReadMore";
     color: black;
